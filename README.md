@@ -1,2 +1,0 @@
-# Vikingsnob
-Take it easy !
