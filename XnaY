@@ -1,0 +1,45 @@
+#include "XnaY.hpp"
+
+XnaY::XnaY(){
+            x=1;
+            y=1;
+            s=0;
+        }
+
+XnaY::XnaY(int){
+    int i;
+    i = 1;
+}
+
+XnaY::XnaY(const XnaY &k){
+      prom = k.prom;
+}
+
+void XnaY::setX(int){
+            cout << "Unesite promenjivu X!" << endl << "X->";
+            cin >> prom;
+            x = prom;
+        }
+
+void XnaY::setY(int){
+            cout << "Unesite promenjivu Y!" << endl << "Y->";
+            cin >> prom;
+            y = prom;
+}
+
+void XnaY::seX_Y(int,int){
+            s = pow(x,y);
+}
+
+int XnaY::getX() const{
+            return x;
+}
+
+int XnaY::getY() const{
+            return y;
+
+    }
+int XnaY::getXnaY() const{
+            return s;
+
+            }
